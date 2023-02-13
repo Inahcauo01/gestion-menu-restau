@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+h1{
+    font-size: xx-large !important;
+    font-weight: bolder !important;
+}
+.img-landing{
+    /* width: 30%; */
+    min-width: 300px;
+}
+.title-land{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px !important;
+}
+.desc-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* color: aliceblue !important; */
+}
+#plats{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px !important;
+}
+.plat-card{
+    overflow: hidden;
+}
+.plat-card:hover .image-plat{
+    transform: scale(1.1) rotate(5deg);
+    transition: transform .5s, visibility .6s ease-in;
+}
